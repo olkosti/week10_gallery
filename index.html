@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div>
+        <h2>Cats</h2>
+        <div class="gallery__wrapper">
+            <div class="gallery">
+                <div class="gallery__image" id="image"></div>
+            </div>
+            <div class="gallery-nav">
+                <button onclick="pushPrevious()" class="slider-previous">Предыдущий</button>
+                <button onclick="pushNext()" class="slider-next">Следующий</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-2">
+        <h2>Cats</h2>
+        <div class="gallery__wrapper">
+            <div class="gallery">
+                <img src="assets/images/cat1.jpg" alt="Котик" class="gallery__image" id="other-image">
+            </div>
+            <div class="gallery-nav">
+                <button onclick="pushPrevious2()" class="slider-previous">Предыдущий</button>
+                <button onclick="pushNext2(otherImage)" class="slider-next">Следующий</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/index.js"></script>
+</body>
+
+</html>
