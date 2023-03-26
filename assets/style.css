@@ -7,15 +7,11 @@ h2 {
     text-align: center;
 }
 
-/* img {
-    width: 500px;
-} */
-
 .gallery-nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .slider-previous,
@@ -30,12 +26,10 @@ h2 {
 .gallery__image {
     width: 500px;
     height: 500px;
+    margin: 0 auto;
     background-image: url('images/2.JPG');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
-.gallery-2 {
-    margin-top: 50px;
-}
